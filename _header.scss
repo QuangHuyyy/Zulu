@@ -1,0 +1,24 @@
+.header {
+    @include flexbox(center);
+    margin-top: 4.5rem;
+    &__logo {
+      margin-right: 13rem;
+    }
+    &-menu {
+      &__list {
+        @include flexbox(center, center);
+      }
+      &__item:not(:first-child) {
+        margin-left: 7.5rem;
+      }
+      &__link{
+          color: $gray-dark;
+          &:hover{
+              color: $primary-color;
+          }
+      }
+    }
+    &__auth {
+      margin-left: auto;
+    }
+  }

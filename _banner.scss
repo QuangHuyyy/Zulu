@@ -1,0 +1,30 @@
+.banner {
+  margin-top: 7rem;
+  @include flexbox(center);
+  &__info {
+    width: 35%;
+  }
+  &__img {
+    width: 65%;
+    transform: translateX(5rem);
+  }
+  &__title {
+    font-size: 5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    span {
+      display: block;
+    }
+  }
+  &__desc {
+    margin-bottom: 5rem;
+  }
+  &__link {
+    .btn:first-child {
+      margin-right: 3rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+}

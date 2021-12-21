@@ -1,0 +1,32 @@
+.started {
+  max-width: 90rem;
+  background-color: $gray;
+  border-radius: 4rem;
+  margin: 14rem auto 7rem;
+  padding: 6rem 2rem;
+  text-align: center;
+  position: relative;
+  & > .block {
+    margin-top: 0;
+  }
+  &__desc {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    span {
+      display: block;
+      line-height: 1.6;
+    }
+  }
+  &-img__haha {
+    position: absolute;
+    top: -4rem;
+    right: -6rem;
+  }
+  &-img__chat {
+    position: absolute;
+    bottom: 3rem;
+    left: 6rem;
+  }
+}

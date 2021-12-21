@@ -1,0 +1,13 @@
+.studio {
+  margin-top: 11rem;
+  @include flexbox(center);
+  & > * {
+    width: 50%;
+  }
+  &__content {
+    padding-right: 12rem;
+  }
+  &__desc {
+    padding: 4rem 0;
+  }
+}
